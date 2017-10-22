@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.1.10",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "jest --watch",
+    "api": "nodemon ./server/server.js",
+    "format":
+      "prettier --semi --single-quote --trailing-comma all --write '**/*.{js}'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "faker": "^4.1.0",
+    "morgan": "^1.9.0",
+    "sort-on": "^2.0.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^21.1.4",
+    "@types/node": "^8.0.46",
+    "jest": "^21.2.1",
+    "ts-node": "^3.3.0"
+  }
+}
