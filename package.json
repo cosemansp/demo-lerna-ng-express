@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "test": "jest --verbose",
+    "test": "jest --projects packages/app packages/server --watch",
     "bootstrap": "lerna bootstrap",
     "postinstall": "npm run bootstrap",
     "precommit": "npm test",
